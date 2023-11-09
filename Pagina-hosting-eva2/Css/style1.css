@@ -1,0 +1,61 @@
+/* Estilos para el encabezado */
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+h1 {
+	margin: 0;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Estilos para el pie de página */
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+/* Estilos adicionales para la página de inicio */
+main {
+	margin-top: 20px;
+	padding: 20px;
+	background-color: #f2f2f2;
+	border-radius: 5px;
+}
+
+h2 {
+	margin-top: 0;
+}
+
+p {
+	margin-bottom: 10px;
+}
+
+ul {
+	margin-top: 0;
+	padding-left: 20px;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+	font-weight: bold;
+}

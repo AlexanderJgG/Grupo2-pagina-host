@@ -1,0 +1,25 @@
+//GET http://localhost:9000/api/pago/657d47e30fd207ded4137dac
+
+//Delete http://localhost:9000/api/pago
+
+POST http://localhost:9000/api1/pago HTTP/1.1
+content-type: application/json
+
+{
+    "correo":		        "ramiro@gmail.com",
+    "servicio": 	        "Basico",
+    "numeroTarjeta":        "3782 2465 7890 1234",
+    "fechaVencimiento":     "11/25",
+    "codigoSeguridad":      789
+}
+
+PUT http://localhost:9000/api/pago/id HTTP/1.1
+content-type: application/json
+
+{
+    "correo":		        "ramiro@gmail.com",
+    "servicio": 	        "Basico",
+    "numeroTarjeta":        "3782 2465 7890 1234",
+    "fechaVencimiento":     "11/25",
+    "codigoSeguridad":      789
+}

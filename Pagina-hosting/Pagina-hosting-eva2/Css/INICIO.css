@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* Estilos para el encabezado */
+.header {
+	background-image: url(https://c.wallhere.com/photos/96/66/technology_binary_numbers_code-229500.jpg!d);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 70vh;
+	display: flex;
+	align-items: center;
+}
+.menu{
+	position:absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	z-index: 1000;
+}
+nav{
+	text-align: right;
+}
+header nav a{
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	margin: 0 20px;
+	padding-bottom: 10px;
+	border-bottom: solid rgb(50, 28, 88);
+}
+header nav a:hover{
+	border-bottom: 3px solid rgb(72, 34, 126);
+}
+
+h1 {
+	padding: 10px;
+	margin: 0;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+	background-color: #1f1f1f;background: #181818;
+    color: #fff;
+    line-height: 1.6;
+    font-family: 'Quicksand', sans-serif;
+    padding: 0 1.5em;
+	}
+
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.bienvenidos{
+	text-align: center;
+}
+.bienvenidos h2{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-weight: bold;
+	color: #181818;
+	text-transform: uppercase;
+	
+}
+.tabla{
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	padding-top: 50px;
+}
+.tablax4{
+	float: left;
+	width: 25%;
+	margin-top: 20px;
+}
+.tablauwu{
+	float: left;
+	width: 25%;
+	margin-top: 10px;
+
+}
+.caja-precio{
+	border: 1px solid goldenrod;
+	background: #181818;
+}
+.icono-precio{
+	color: aqua;
+	padding-top: 20px;
+	font-size: 4em;
+	padding-bottom: 10px;
+}
+.caja-precio h4{
+	color: blue;
+}
+.precio-1{
+	color:aquamarine;
+	font-size: 50px;
+	font-weight: bold;
+}
+.dolar{
+	font-size: 20px;
+	vertical-align: super;
+}
+.mes{
+	font-size: 10px;
+	color:yellowgreen;
+	vertical-align: text-bottom;
+}
+.lista-precios{
+	list-style: none;
+	padding: 20px 0;
+	color: rgb(103, 17, 17);
+	padding-bottom: 50px ;
+}
+.lista-espacios{
+	padding: 0.25em ;
+	font-size: 15px;
+}
+.boton-comprar{
+	margin-bottom: 25px;
+}
+.comprar-a{
+	background: #b42222;
+	text-decoration: none;
+	color: aqua;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 10px 70px;
+	letter-spacing: 1px;
+	width: 90%;
+}
+.comprar-a:hover{
+	background: #777;
+}
+.destacado{
+	background-color: #fff;
+	box-shadow: 0 0 8px rgba(0,0,0,0.9);
+	z-index: 500;
+}
+.destacado h4{
+	color: #22125d;
+	font-size: 30px;
+}
+.destacado .icono-precioxd{
+	font-size: 4em;
+}
+.destacado .contratar-a{
+	background:#18218b;
+}
+.destacado .contratar-a:hover{
+	background: #777;
+}
+.estrellas{
+	color: #18218b;
+}
+
+/* Estilos para el pie de página */
+footer{
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+/* Estilos adicionales para la página de inicio */
+main {
+	margin-top: 20px;
+	padding: 20px;
+	background-color: #efdfdf;
+	border-radius: 5px;
+}
+
+h2 {
+	margin-top: 5;
+}
+
+p {
+	margin-bottom: 10px;
+}
+
+ul {
+	margin-top: 0;
+	padding-left: 20px;
+}
+
+

@@ -1,0 +1,47 @@
+/* Estilos para el encabezado */
+header {
+	max-width: 1100px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #fff;
+	padding: 20px 0;
+}
+header nav a{
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	margin: 0 20px;
+	padding-bottom: 10px;
+	border-bottom: solid rgb(50, 28, 88);
+}
+header nav a:hover{
+	border-bottom: 3px solid rgb(72, 34, 126);
+}
+
+h1 {
+	padding: 10px;
+	margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #181818;
+    color: #fff;
+    line-height: 1.6;
+    font-family: 'Quicksand', sans-serif;
+    padding: 0 1.5em;
+}
+
+/* Estilos para el pie de página */
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
